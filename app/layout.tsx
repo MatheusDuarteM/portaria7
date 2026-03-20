@@ -1,15 +1,40 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const inter = localFont({
+  src: "../public/fonts/Inter/static/Inter_18pt-Black.ttf",
+  variable: "--font-inter",
 });
 
-const geistMono = Geist_Mono({
+const playfair = localFont({
+  src: "../public/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf",
+  variable: "--font-playfair",
+});
+
+const jetbrainsMono = localFont({
+  src: "../public/fonts/JetBrains_Mono/static/JetBrainsMono-ExtraBold.ttf",
+  variable: "--font-jetbrainsMono",
+});
+
+const jura = localFont({
+  src: "../public/fonts/Jura/static/Jura-Bold.ttf",
+  variable: "--font-jura",
+});
+
+const leagueSpartan = localFont({
+  src: "../public/fonts/League_Spartan/static/LeagueSpartan-Bold.ttf",
+  variable: "--font-league-spartan",
+});
+
+const geistSans = localFont({
+  src: "../public/fonts/Geist/static/Geist-Bold.ttf",
+  variable: "--font-geist-sans",
+});
+
+const geistMono = localFont({
+  src: "../public/fonts/Geist/static/Geist-ExtraBold.ttf",
   variable: "--font-geist-mono",
-  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -25,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${playfair.variable} ${jetbrainsMono.variable} ${jura.variable} ${leagueSpartan.variable} antialiased`}
       >
         {children}
       </body>

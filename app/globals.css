@@ -8,8 +8,13 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter);
+  --font-playfair: var(--font-playfair);
+  --font-jetbrainsMono: var(--font-jetbrainsMono);
+  --font-jura: var(--font-jura);
+  --font-league-spartan: var(--font-league-spartan);
+  --font-geist-sans: var(--font-geist-sans);
+  --font-geist-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
