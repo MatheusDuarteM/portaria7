@@ -19,7 +19,7 @@ export const movies: MovieFeedback[] = [
     title: "Aquele filme de terror que parece comédia",
     category: "Humor",
     views: "Comedia, Terror visualizações",
-    imageUrl: "/capa1.jpg",
+    imageUrl: "/oprimata.jpg",
     youtuber: "Duartinh10",
     feedback: "Uma verdadeira pérola do cinema 'B'...",
     youtuber2: "Café com Fritas",
@@ -33,7 +33,7 @@ export const movies: MovieFeedback[] = [
     title: "Por que o Batman nunca usa o interfone?",
     category: "Investigação",
     views: "Humor, Drama visualizações",
-    imageUrl: "/capa2.jpg",
+    imageUrl: "/oprimata.jpg",
     youtuber: "Duartinh10",
     feedback:
       "Uma análise necessária sobre a segurança de condomínios em Gotham.",
@@ -50,7 +50,7 @@ export const movies: MovieFeedback[] = [
     title: "Por que o Batman nunca usa o interfone?",
     category: "Investigação",
     views: "Humor, Drama visualizações",
-    imageUrl: "/capa2.jpg",
+    imageUrl: "/oprimata.jpg",
     youtuber: "Duartinh10",
     feedback:
       "Uma análise necessária sobre a segurança de condomínios em Gotham.",
@@ -79,6 +79,7 @@ export const heroData = {
   span: "Última Entrega na Portaria",
   h1: "Encomendas cinematográficas e fofocas do sétimo andar.",
   p: "Descubra os segredos por trás das entregas mais intrigantes do condomínio, onde cada pacote tem uma história para contar.",
+  videoUrl: "https://www.youtube.com/watch?v=IdaUyZn3FRk",
 };
 
 export const headerData = {

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { movies, MovieFeedback } from "@/lib/valuesPage";
+import Image from "next/image";
 
 export function SectionFeedback() {
   const [selected, setSelected] = useState<MovieFeedback | null>(null);
@@ -24,7 +25,13 @@ export function SectionFeedback() {
                   {movie.category}
                 </span>
               </div>
-              <div className="w-full h-full bg-linear-to-br from-[#2a1a14] to-[#1a0f0a] group-hover:scale-105 transition duration-500" />
+              {/* A IMAGEM: Usando a tag img padrão ou Image do Next.js */}
+              <Image
+                src={movie.imageUrl}
+                alt={movie.title}
+                fill // Esta propriedade faz a imagem ocupar todo o espaço do container pai
+                className="object-cover group-hover:scale-105 transition duration-500"
+              />
             </div>
             <h4 className="font-bold text-zinc-100 group-hover:text-red-500 transition italic">
               {movie.title}
@@ -58,7 +65,7 @@ export function SectionFeedback() {
                 {selected.rating}
               </span>
               <p className="text-sm text-zinc-400 italic">
-                Nota dada pelo porteiro
+                Nota dada pelo porteiro 7
               </p>
             </div>
             <p>{selected.youtuber}</p>
