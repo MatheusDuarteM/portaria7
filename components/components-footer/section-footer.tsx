@@ -13,7 +13,7 @@ interface SectionFooterProps {
 const SectionFooter = ({ data }: { data: SectionFooterProps }) => {
   return (
     <section
-      className="grid md:grid-cols-2 gap-12 items-center border-t border-white/10 pt-20"
+      className="grid md:grid-cols-2 gap-12 items-center border-t border-white/10 pt-20 relative"
       id="regimento"
     >
       <div>
@@ -28,6 +28,7 @@ const SectionFooter = ({ data }: { data: SectionFooterProps }) => {
           </ul>
         </div>
       </div>
+
       <div className="bg-yellow-500 p-1 rounded-2xl rotate-2 shadow-2xl">
         <div className="bg-zinc-900 p-8 rounded-xl -rotate-2 flex flex-col items-center text-center">
           <h3 className="text-xl font-bold mb-2 uppercase italic">{data.h3}</h3>
@@ -40,6 +41,23 @@ const SectionFooter = ({ data }: { data: SectionFooterProps }) => {
             {data.a}
           </a>
         </div>
+      </div>
+
+      {/* Ajustado: col-span-full garante que ele fique embaixo ocupando a largura toda */}
+      <div className="col-span-full mt-12 text-right">
+        <a
+          href="https://port-matheus.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block hover:text-brand-destaque transition-colors text-slate-400 group"
+        >
+          <p className="text-[10px] tracking-widest text-white uppercase opacity-70">
+            Desenvolvido por
+          </p>
+          <span className="text-[11px] font-medium tracking-wide text-white">
+            Matheus Martins
+          </span>
+        </a>
       </div>
     </section>
   );
