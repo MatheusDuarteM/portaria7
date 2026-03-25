@@ -2,7 +2,7 @@
 import { useState, useMemo } from "react";
 import { movies, MovieFeedback } from "@/lib/valuesPage";
 import Image from "next/image";
-import { X, Search, Filter } from "lucide-react";
+import { X, Search } from "lucide-react";
 
 export function SectionFeedback() {
   const [selected, setSelected] = useState<MovieFeedback | null>(null);
