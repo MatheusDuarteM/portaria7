@@ -29,7 +29,7 @@ export function SectionFeedback() {
 
   return (
     <section className="mb-20 px-4 md:px-0" id="videos">
-      <h2 className="text-xl md:text-2xl font-bold flex items-center gap-3 text-white mb-8 tracking-tight italic">
+      <h2 className="text-xl md:text-2xl font-bold flex items-center gap-3 text-white mb-8 tracking-tight">
         <span className="bg-yellow-600/20 p-2 rounded text-base">🛎️</span>
         Interfonando para os Vizinhos
       </h2>
