@@ -60,7 +60,7 @@ export const movies: MovieFeedback[] = [
     youtuber: "Duartinh10",
     feedback:
       "Uma análise necessária sobre a segurança de condomínios em Gotham.",
-    nota1: 9.2,
+    nota1: 1.2,
     youtuber2: "Café com Fritas",
     feedback2:
       "O vídeo explora de forma divertida e crítica as possíveis razões por trás dessa escolha do Batman, misturando humor e investigação.",
@@ -68,8 +68,8 @@ export const movies: MovieFeedback[] = [
     youtuber3: "Sombra",
     feedback3:
       "Indispensável para fãs de super-heróis e entusiastas de teorias conspiratórias sobre a vida cotidiana dos vigilantes urbanos.",
-    nota3: 9.6,
-    rating: Number(((9.2 + 8.8 + 9.6) / 3).toFixed(1)),
+    nota3: 5.6,
+    rating: Number(((1.2 + 8.8 + 5.6) / 3).toFixed(1)),
     videoLink: "https://www.youtube.com/watch?v=exemplo2",
   },
   {
@@ -88,7 +88,7 @@ export const movies: MovieFeedback[] = [
     feedback3:
       "Indispensável para fãs de super-heróis e entusiastas de teorias conspiratórias sobre a vida cotidiana dos vigilantes urbanos.",
     nota3: 2.6,
-    rating: Number(((9.2 + 8.8 + 9.6) / 3).toFixed(1)),
+    rating: Number(((5.2 + 9.8 + 2.6) / 3).toFixed(1)),
     videoLink: "https://www.youtube.com/watch?v=exemplo2",
   },
 ];
