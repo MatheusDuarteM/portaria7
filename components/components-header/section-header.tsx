@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 import { User, Menu, X, ChevronDown } from "lucide-react";
 
@@ -19,8 +20,13 @@ const SectionHeader = ({ data }: { data: SectionHeaderProps }) => {
         {/* Lado Esquerdo: Logo e Links Desktop */}
         <div className="flex items-center gap-4 md:gap-8">
           <div className="flex items-center gap-3 shrink-0">
-            <div className="bg-yellow-500 text-black font-black p-2 rounded-lg text-xl shadow-[0_0_15px_rgba(234,179,8,0.3)]">
-              7
+            <div className="relative w-16 h-16 overflow-hidden bg-transparent  ">
+              <Image
+                src="/portaria7.png"
+                alt="Ícone Portaria 7"
+                fill
+                className="object-contain"
+              />
             </div>
             <span className="font-bold text-lg md:text-xl tracking-tighter text-white">
               {data.span}

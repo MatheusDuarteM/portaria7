@@ -34,63 +34,6 @@ export const movies: MovieFeedback[] = [
     rating: Number(((8.5 + 7.0 + 9.0) / 3).toFixed(1)),
     videoLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   },
-  {
-    title: "Por que o Batman nunca usa o interfone?",
-    category: "Investigação",
-    imageUrl: "/oprimata.jpg",
-    youtuber: "Duartinh10",
-    feedback:
-      "Uma análise necessária sobre a segurança de condomínios em Gotham.",
-    nota1: 9.2,
-    youtuber2: "Café com Fritas",
-    feedback2:
-      "O vídeo explora de forma divertida e crítica as possíveis razões por trás dessa escolha do Batman, misturando humor e investigação.",
-    nota2: 8.8,
-    youtuber3: "Sombra",
-    feedback3:
-      "Indispensável para fãs de super-heróis e entusiastas de teorias conspiratórias sobre a vida cotidiana dos vigilantes urbanos.",
-    nota3: 9.6,
-    rating: Number(((9.2 + 8.8 + 9.6) / 3).toFixed(1)),
-    videoLink: "https://www.youtube.com/watch?v=exemplo2",
-  },
-  {
-    title: "Por que o Batman nunca usa o interfone?",
-    category: "Investigação",
-    imageUrl: "/oprimata.jpg",
-    youtuber: "Duartinh10",
-    feedback:
-      "Uma análise necessária sobre a segurança de condomínios em Gotham.",
-    nota1: 1.2,
-    youtuber2: "Café com Fritas",
-    feedback2:
-      "O vídeo explora de forma divertida e crítica as possíveis razões por trás dessa escolha do Batman, misturando humor e investigação.",
-    nota2: 8.8,
-    youtuber3: "Sombra",
-    feedback3:
-      "Indispensável para fãs de super-heróis e entusiastas de teorias conspiratórias sobre a vida cotidiana dos vigilantes urbanos.",
-    nota3: 5.6,
-    rating: Number(((1.2 + 8.8 + 5.6) / 3).toFixed(1)),
-    videoLink: "https://www.youtube.com/watch?v=exemplo2",
-  },
-  {
-    title: "Por que o Batman nunca usa o interfone?",
-    category: "Terror",
-    imageUrl: "/oprimata.jpg",
-    youtuber: "Duartinh10",
-    feedback:
-      "Uma análise necessária sobre a segurança de condomínios em Gotham.",
-    nota1: 5.2,
-    youtuber2: "Café com Fritas",
-    feedback2:
-      "O vídeo explora de forma divertida e crítica as possíveis razões por trás dessa escolha do Batman, misturando humor e investigação.",
-    nota2: 9.8,
-    youtuber3: "Sombra",
-    feedback3:
-      "Indispensável para fãs de super-heróis e entusiastas de teorias conspiratórias sobre a vida cotidiana dos vigilantes urbanos.",
-    nota3: 2.6,
-    rating: Number(((5.2 + 9.8 + 2.6) / 3).toFixed(1)),
-    videoLink: "https://www.youtube.com/watch?v=exemplo2",
-  },
 ];
 
 export const footerData = {
